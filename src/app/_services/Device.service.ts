@@ -15,6 +15,8 @@ export class DeviceService {
   getOverAllDevices(): Observable<OverallDevices> {
     return this.httpClient.get<OverallDevices>(
       this.baseUrl + 'OverallDevicesStatus'
+
+      //kuc bi likh de 
     );
   }
 }
